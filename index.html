@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DnD Navigation</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Підключаємо файл стилів -->
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Логотип" width="100">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Головна</a></li>
+                <li><a href="characters.html">Персонажі</a></li>
+                <li><a href="rules.html">Правила</a></li>
+                <li><a href="items.html">Предмети</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Головна сторінка -->
+    <main>
+        <section class="description">
+            <h1>Ласкаво просимо до DnD!</h1>
+            <p>Опис гри, світу, чи будь-якої інформації, яку хочете розмістити на головній сторінці.</p>
+        </section>
+
+        <!-- Форма реєстрації -->
+        <section class="registration">
+            <h2>Реєстрація</h2>
+            <form action="register.php" method="POST">
+                <label for="username">Ім'я користувача:</label>
+                <input type="text" id="username" name="username" required>
+
+                <label for="email">Електронна пошта:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="password">Пароль:</label>
+                <input type="password" id="password" name="password" required>
+
+                <button type="submit">Зареєструватися</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>DnD © 2024</p>
+    </footer>
+
+</body>
+</html>
